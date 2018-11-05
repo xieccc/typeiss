@@ -1,0 +1,17 @@
+{
+  "name": "typeiss",
+  "version": "1.0.0",
+  "description": "check the type in js",
+  "main": "typeiss.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "xc",
+  "license": "ISC",
+  "keywords": [
+    "type",
+    "typeof",
+    "typeis",
+    "typeiss"
+  ],
+}
