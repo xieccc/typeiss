@@ -1,6 +1,6 @@
 {
   "name": "typeiss",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "check the type in js",
   "main": "typeiss.js",
   "scripts": {
@@ -8,10 +8,11 @@
   },
   "author": "xc",
   "license": "ISC",
+  "homepage": "https://github.com/xc135/typeiss",
   "keywords": [
     "type",
     "typeof",
     "typeis",
     "typeiss"
-  ],
+  ]
 }
