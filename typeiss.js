@@ -1,15 +1,13 @@
 
 let typeiss = (a,b) => {
-    let c = (a) => Object.prototype.toString.call(a).replace(/\[|\]|object| /g,''),
+    let c = a => Object.prototype.toString.call(a).replace(/\[|\]|object| /g,''),
         d = c(a)
     if(c(b) === 'Array'){
-        if(b.indexOf(d) != -1){
-            return true
-        }else{
-            return false
-        }
+        return b.indexOf(d) !== -1?true:false
     }else{
         return d
     }
 }
-exports.typeiss = typeiss;
+
+export { typeiss }
+exports.typeiss = typeiss
