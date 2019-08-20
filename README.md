@@ -20,7 +20,9 @@
 
 #### Usage
 ----
-#####  In Node.js:
+##### In ES6:
+```import { typeiss } from 'typeiss'```
+##### In Node.js:
 ```const a = require('typeiss')```
 ##### In a browser:
 ```<script src="typeis.js"></script>```
@@ -28,16 +30,18 @@
 #### Examples
 ----
 ```
+// return variable type
 typeiss(undefined) //return Undefined
 typeiss(true)     //return Boolean
 typeiss('string') //return String
 ···
 
-typeiss(undefined,['Undefined'])   //return true
-typeiss(true,['Boolean','Array'])  //return true
-typeiss(true,['Array'])            //return false
-typeiss('string',['String','Boolean','Array'])  //return true
-typeiss('string',['Boolean','Array'])           //return false
+// return the variable type is or not in an array
+typeiss(undefined, ['Undefined'])   //return true
+typeiss(true, ['Boolean','Array'])  //return true
+typeiss(true, ['Array'])            //return false
+typeiss('string', ['String','Boolean','Array'])  //return true
+typeiss('string', ['Boolean','Array'])           //return false
 ```
 
 
